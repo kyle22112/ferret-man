@@ -1,0 +1,87 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p {
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about-me {
+    padding: 20px;
+}
+
+.about-me h2 {
+    color: #3498db;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.links-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px; /* Add margin at the bottom to create space for the footer */
+}
+
+.links-section h2 {
+    color: #333;
+}
+
+.links-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-section li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between links */
+}
+
+.links-section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.links-section a:hover {
+    text-decoration: underline;
+}

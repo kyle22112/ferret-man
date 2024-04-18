@@ -55,6 +55,10 @@ footer {
     width: 100%;
 }
 
+.sections {
+    background-color: #CCCCCC;
+}
+
 .links-section {
     padding: 20px;
     background-color: #CCCCCC;

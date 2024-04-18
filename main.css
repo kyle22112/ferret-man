@@ -85,3 +85,34 @@ footer {
 .links-section a:hover {
     text-decoration: underline;
 }
+
+.activities-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #CCCCCC;
+    margin-bottom: 50px; /* Add margin at the bottom to create space for the footer */
+}
+
+.activities-section h2 {
+    color: #333;
+}
+
+.activities-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activities-section li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between links */
+}
+
+.activities-section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.activities-section a:hover {
+    text-decoration: underline;
+}
